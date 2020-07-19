@@ -1,0 +1,24 @@
+﻿<Window x:Class="WPFTestSkill.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFTestSkill"
+        mc:Ignorable="d"
+        Title="TEST WPF" Height="429.271" Width="690.829">
+    <Grid x:Name="Form1" Margin="0,0,2,0" Background="White">
+        <Button x:Name="button1" Content="คำนวณ" HorizontalAlignment="Left" Margin="84,298,0,0" VerticalAlignment="Top" Width="89" Height="31" Click="Button_Click"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="30" Margin="228,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" FontSize="18"/>
+        <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="34" Margin="228,168,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" FontSize="18"/>
+        <Label Content="รายได้" HorizontalAlignment="Left" Margin="136,115,0,0" VerticalAlignment="Top" Height="34" Width="87" FontSize="18" Background="{x:Null}" FontWeight="Bold"/>
+        <Label Content="รายจ่าย " HorizontalAlignment="Left" Margin="136,168,0,0" VerticalAlignment="Top" Height="34" Width="87" FontSize="18" FontWeight="Bold"/>
+        <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="34" Margin="228,220,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" FontSize="18"/>
+        <Label Content="ราคาของที่อยากได้ " HorizontalAlignment="Left" Margin="56,220,0,0" VerticalAlignment="Top" Height="34" Width="154" FontSize="18" FontWeight="Bold"/>
+        <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="34" Margin="421,298,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="188" FontSize="18"/>
+        <Label Content="คุณต้องเก็บเงินทั้งหมด" HorizontalAlignment="Left" Margin="228,298,0,0" VerticalAlignment="Top" Height="34" Width="188" FontSize="18" FontWeight="Bold"/>
+        <Label Content="บาท/วัน" HorizontalAlignment="Left" Margin="435,115,0,0" VerticalAlignment="Top" Height="34" Width="76" FontSize="18" Background="{x:Null}" FontWeight="Bold"/>
+        <Label Content="บาท/วัน" HorizontalAlignment="Left" Margin="435,168,0,0" VerticalAlignment="Top" Height="34" Width="76" FontSize="18" Background="{x:Null}" FontWeight="Bold"/>
+        <Label Content="บาท" HorizontalAlignment="Left" Margin="435,220,0,0" VerticalAlignment="Top" Height="34" Width="76" FontSize="18" Background="{x:Null}" FontWeight="Bold"/>
+        <Label Content="วัน" HorizontalAlignment="Left" Margin="614,298,-9,0" VerticalAlignment="Top" Height="34" Width="76" FontSize="18" Background="{x:Null}" FontWeight="Bold"/>
+    </Grid>
+</Window>
